@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2D33A01AF0BC9B00942825 /* Timeline_Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D339F1AF0BC9B00942825 /* Timeline_Public.swift */; };
+		DB2D33A21AF0CDC300942825 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D33A11AF0CDC300942825 /* MessageCell.swift */; };
+		DB2D33A41AF0CE5400942825 /* MessagePrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D33A31AF0CE5400942825 /* MessagePrototype.swift */; };
+		DB2D33A61AF0D0FF00942825 /* Timeline_Personnal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D33A51AF0D0FF00942825 /* Timeline_Personnal.swift */; };
+		DB2D33A81AF0E30E00942825 /* Timeline_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D33A71AF0E30E00942825 /* Timeline_User.swift */; };
+		DB2E09011AEE7B4F00990272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E09001AEE7B4F00990272 /* AppDelegate.swift */; };
+		DB2E09031AEE7B4F00990272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E09021AEE7B4F00990272 /* ViewController.swift */; };
+		DB2E09061AEE7B4F00990272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2E09041AEE7B4F00990272 /* Main.storyboard */; };
+		DB2E09081AEE7B4F00990272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2E09071AEE7B4F00990272 /* Images.xcassets */; };
+		DB2E090B1AEE7B4F00990272 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2E09091AEE7B4F00990272 /* LaunchScreen.xib */; };
+		DB2E09171AEE7B4F00990272 /* MiniTwit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E09161AEE7B4F00990272 /* MiniTwit_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2E09111AEE7B4F00990272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2E08F31AEE7B4F00990272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2E08FA1AEE7B4F00990272;
+			remoteInfo = MiniTwit_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2D339F1AF0BC9B00942825 /* Timeline_Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline_Public.swift; sourceTree = "<group>"; };
+		DB2D33A11AF0CDC300942825 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		DB2D33A31AF0CE5400942825 /* MessagePrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePrototype.swift; sourceTree = "<group>"; };
+		DB2D33A51AF0D0FF00942825 /* Timeline_Personnal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline_Personnal.swift; sourceTree = "<group>"; };
+		DB2D33A71AF0E30E00942825 /* Timeline_User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline_User.swift; sourceTree = "<group>"; };
+		DB2E08FB1AEE7B4F00990272 /* MiniTwit_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniTwit_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2E08FF1AEE7B4F00990272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2E09001AEE7B4F00990272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB2E09021AEE7B4F00990272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2E09051AEE7B4F00990272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2E09071AEE7B4F00990272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB2E090A1AEE7B4F00990272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB2E09101AEE7B4F00990272 /* MiniTwit_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniTwit_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2E09151AEE7B4F00990272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2E09161AEE7B4F00990272 /* MiniTwit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniTwit_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2E08F81AEE7B4F00990272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2E090D1AEE7B4F00990272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2E08F21AEE7B4F00990272 = {
+			isa = PBXGroup;
+			children = (
+				DB2E08FD1AEE7B4F00990272 /* MiniTwit_iOS */,
+				DB2E09131AEE7B4F00990272 /* MiniTwit_iOSTests */,
+				DB2E08FC1AEE7B4F00990272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2E08FC1AEE7B4F00990272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E08FB1AEE7B4F00990272 /* MiniTwit_iOS.app */,
+				DB2E09101AEE7B4F00990272 /* MiniTwit_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2E08FD1AEE7B4F00990272 /* MiniTwit_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E09001AEE7B4F00990272 /* AppDelegate.swift */,
+				DB2E09021AEE7B4F00990272 /* ViewController.swift */,
+				DB2E09041AEE7B4F00990272 /* Main.storyboard */,
+				DB2E09071AEE7B4F00990272 /* Images.xcassets */,
+				DB2E09091AEE7B4F00990272 /* LaunchScreen.xib */,
+				DB2E08FE1AEE7B4F00990272 /* Supporting Files */,
+				DB2D339F1AF0BC9B00942825 /* Timeline_Public.swift */,
+				DB2D33A51AF0D0FF00942825 /* Timeline_Personnal.swift */,
+				DB2D33A11AF0CDC300942825 /* MessageCell.swift */,
+				DB2D33A31AF0CE5400942825 /* MessagePrototype.swift */,
+				DB2D33A71AF0E30E00942825 /* Timeline_User.swift */,
+			);
+			path = MiniTwit_iOS;
+			sourceTree = "<group>";
+		};
+		DB2E08FE1AEE7B4F00990272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E08FF1AEE7B4F00990272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB2E09131AEE7B4F00990272 /* MiniTwit_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E09161AEE7B4F00990272 /* MiniTwit_iOSTests.swift */,
+				DB2E09141AEE7B4F00990272 /* Supporting Files */,
+			);
+			path = MiniTwit_iOSTests;
+			sourceTree = "<group>";
+		};
+		DB2E09141AEE7B4F00990272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E09151AEE7B4F00990272 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2E08FA1AEE7B4F00990272 /* MiniTwit_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2E091A1AEE7B4F00990272 /* Build configuration list for PBXNativeTarget "MiniTwit_iOS" */;
+			buildPhases = (
+				DB2E08F71AEE7B4F00990272 /* Sources */,
+				DB2E08F81AEE7B4F00990272 /* Frameworks */,
+				DB2E08F91AEE7B4F00990272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniTwit_iOS;
+			productName = MiniTwit_iOS;
+			productReference = DB2E08FB1AEE7B4F00990272 /* MiniTwit_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2E090F1AEE7B4F00990272 /* MiniTwit_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2E091D1AEE7B4F00990272 /* Build configuration list for PBXNativeTarget "MiniTwit_iOSTests" */;
+			buildPhases = (
+				DB2E090C1AEE7B4F00990272 /* Sources */,
+				DB2E090D1AEE7B4F00990272 /* Frameworks */,
+				DB2E090E1AEE7B4F00990272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2E09121AEE7B4F00990272 /* PBXTargetDependency */,
+			);
+			name = MiniTwit_iOSTests;
+			productName = MiniTwit_iOSTests;
+			productReference = DB2E09101AEE7B4F00990272 /* MiniTwit_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2E08F31AEE7B4F00990272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Pierre Vrot";
+				TargetAttributes = {
+					DB2E08FA1AEE7B4F00990272 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DB2E090F1AEE7B4F00990272 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DB2E08FA1AEE7B4F00990272;
+					};
+				};
+			};
+			buildConfigurationList = DB2E08F61AEE7B4F00990272 /* Build configuration list for PBXProject "MiniTwit_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2E08F21AEE7B4F00990272;
+			productRefGroup = DB2E08FC1AEE7B4F00990272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2E08FA1AEE7B4F00990272 /* MiniTwit_iOS */,
+				DB2E090F1AEE7B4F00990272 /* MiniTwit_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2E08F91AEE7B4F00990272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2E09061AEE7B4F00990272 /* Main.storyboard in Resources */,
+				DB2E090B1AEE7B4F00990272 /* LaunchScreen.xib in Resources */,
+				DB2E09081AEE7B4F00990272 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2E090E1AEE7B4F00990272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2E08F71AEE7B4F00990272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2D33A01AF0BC9B00942825 /* Timeline_Public.swift in Sources */,
+				DB2E09031AEE7B4F00990272 /* ViewController.swift in Sources */,
+				DB2D33A21AF0CDC300942825 /* MessageCell.swift in Sources */,
+				DB2D33A81AF0E30E00942825 /* Timeline_User.swift in Sources */,
+				DB2D33A41AF0CE5400942825 /* MessagePrototype.swift in Sources */,
+				DB2D33A61AF0D0FF00942825 /* Timeline_Personnal.swift in Sources */,
+				DB2E09011AEE7B4F00990272 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2E090C1AEE7B4F00990272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2E09171AEE7B4F00990272 /* MiniTwit_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2E09121AEE7B4F00990272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2E08FA1AEE7B4F00990272 /* MiniTwit_iOS */;
+			targetProxy = DB2E09111AEE7B4F00990272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2E09041AEE7B4F00990272 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2E09051AEE7B4F00990272 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2E09091AEE7B4F00990272 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2E090A1AEE7B4F00990272 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2E09181AEE7B4F00990272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2E09191AEE7B4F00990272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2E091B1AEE7B4F00990272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniTwit_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2E091C1AEE7B4F00990272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniTwit_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB2E091E1AEE7B4F00990272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniTwit_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniTwit_iOS.app/MiniTwit_iOS";
+			};
+			name = Debug;
+		};
+		DB2E091F1AEE7B4F00990272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniTwit_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniTwit_iOS.app/MiniTwit_iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2E08F61AEE7B4F00990272 /* Build configuration list for PBXProject "MiniTwit_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2E09181AEE7B4F00990272 /* Debug */,
+				DB2E09191AEE7B4F00990272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2E091A1AEE7B4F00990272 /* Build configuration list for PBXNativeTarget "MiniTwit_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2E091B1AEE7B4F00990272 /* Debug */,
+				DB2E091C1AEE7B4F00990272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2E091D1AEE7B4F00990272 /* Build configuration list for PBXNativeTarget "MiniTwit_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2E091E1AEE7B4F00990272 /* Debug */,
+				DB2E091F1AEE7B4F00990272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2E08F31AEE7B4F00990272 /* Project object */;
+}
